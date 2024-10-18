@@ -1,0 +1,147 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #1d1f21;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  main {
+    background-color: #252a2e;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #259ed9;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Input and Button Styling */
+  .input-div {
+    margin: 20px 0;
+  }
+  
+  label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #30363b;
+    color: #e0e0e0;
+    outline: none;
+    margin-bottom: 20px;
+  }
+  
+  input:focus {
+    border-color: #259ed9;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #259ed9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #1b7eb5;
+  }
+  
+  /* Display Sections */
+  #change-due {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    background-color: #30363b;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .top-display-screen-container {
+    background-color: #30363b;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #price-screen {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  #cash-drawer-display {
+    width: 100%;
+    background-color: #30363b;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  #cash-drawer-display p {
+    margin: 10px 0;
+  }
+  
+  p strong {
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    main {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    button {
+      width: 100%;
+    }
+  
+    input {
+      width: calc(100% - 10px);
+    }
+  
+    #price-screen {
+      font-size: 1.3rem;
+    }
+  
+    #cash-drawer-display p {
+      font-size: 0.9rem;
+    }
+  }
+  
